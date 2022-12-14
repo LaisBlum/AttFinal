@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/reach__router": "^1.3.11",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.5",
     "sqlite": "^4.1.2",
     "sqlite3": "^5.1.4"
   },
