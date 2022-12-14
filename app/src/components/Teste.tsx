@@ -53,16 +53,20 @@ export default function ({ setRoute }: { setRoute: Dispatch<SetStateAction<strin
   }
 
   return <>
-    <h1>teste</h1>
-    <h2>Buscar dados do Usuário Logado</h2>
-    <div>
-      <label>Nome: </label>{name}
-    </div>
-    <div>
-      <label>Email: </label>{email}
-    </div>
-    <button onClick={buscarDados}>buscar</button>
-    <button onClick={logOff}>sair</button>
-    <button onClick={alterarDados}>alterar dados</button>
+    <form className="container">
+      <h1>Teste</h1>
+      <h2>Buscar dados do Usuário Logado</h2>
+      <div>
+        <label>Nome: </label>{name}
+      </div>
+      <div>
+        <label>Email: </label>{email}
+      </div>
+      <div className="containerBtns">
+        <button onClick={buscarDados}>buscar</button>
+        <button onClick={logOff}>sair</button>
+        <button onClick={alterarDados}>alterar dados</button>
+      </div>
+    </form>
   </>
 }

@@ -40,6 +40,7 @@ export default function ({ setRoute }: { setRoute: Dispatch<SetStateAction<strin
 
 
   return <>
+    <form className="container">
     <h1>Alterar dados</h1>
     <h2>Alterar dados do Usuário Logado</h2>
     <div className="containerDiv">
@@ -54,7 +55,11 @@ export default function ({ setRoute }: { setRoute: Dispatch<SetStateAction<strin
       <label>SENHA</label>
       <input name="password" type="password" placeholder="password" />
     </div>
-    <button onClick={save}>salvar</button>
-    <button onClick={logOff}>sair</button>
+    
+    <div className="containerBtns">
+      <button onClick={save}>salvar</button>
+      <button onClick={logOff}>sair</button>
+    </div>
+    </form>
   </>
 }

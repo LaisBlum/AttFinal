@@ -45,9 +45,9 @@ export default function ({ setRoute }: { setRoute: Dispatch<SetStateAction<strin
       </div>
 
       <div className="containerBtns">
-        <button className="containerBtn" onClick={() => { }}>entrar</button>
-        <button className="containerBtn" onClick={() => setRoute("cadastro")}>cadastrar-se</button>
-        <button className="containerBtn" onClick={() => setRoute("teste")}>ir para teste</button>
+        <button onClick={() => { }}>login</button>
+        <button onClick={() => setRoute("cadastro")}>cadastrar</button>
+        <button onClick={() => setRoute("teste")}>verificação</button>
       </div>
     </form>
   </>

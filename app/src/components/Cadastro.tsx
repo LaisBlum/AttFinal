@@ -48,8 +48,8 @@ export default function ({ setRoute }: { setRoute: Dispatch<SetStateAction<strin
       </div>
 
       <div className="containerBtns">
-      <button className="containerBtn" onClick={() => setRoute("login")}>Voltar</button>
-      <button className="containerBtn">cadastrar-se</button>
+      <button onClick={() => setRoute("login")}>voltar</button>
+      <button>cadastrar</button>
       </div>
     </form>
   </>
